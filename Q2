@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+int i = 10;
+float f = 3.14;
+double d = 3.1359;
+cout << "int: " << i << ", Size: " << sizeof(i) << " bytes\n";
+cout << "float: " << f << ", Size: " << sizeof(f) << " bytes\n";
+cout << "double: " << d << ", Size: " << sizeof(d) << " bytes\n";
+return 0;
+}
+
