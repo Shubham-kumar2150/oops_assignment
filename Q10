@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Implicit Type Casting
+    int a = 10;
+    float b;
+    b = a;   
+    cout << "Implicit Type Casting:" << endl;
+    cout << "Integer value: " << a << endl;
+    cout << "Float value: " << b << endl << endl;
+    // Explicit Type Casting
+    float x = 9.8;
+    int y;
+    y = (int)x; 
+    cout << "Explicit Type Casting:" << endl;
+    cout << "Float value: " << x << endl;
+    cout << "Integer value after casting: " << y << endl;
+    return 0;
+}
+
