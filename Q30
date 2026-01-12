@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+start:
+    cout << "Enter a positive number: ";
+    cin >> n;
+
+    if (n <= 0)
+        goto start;
+    cout << "You entered: " << n;
+    return 0;
+}
