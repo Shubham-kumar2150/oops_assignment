@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+class Demo {
+public:
+    Demo() {
+        cout << "Constructor 1\n";
+    }
+    Demo(int x) {
+        cout << "Constructor 2: " << x;
+    }
+};
+int main() {
+    Demo d1;
+    Demo d2(20);
+    return 0;
+}
