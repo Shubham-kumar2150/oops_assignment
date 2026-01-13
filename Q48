@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+class Area {
+public:
+    int l, b;
+    void input() {
+        cin >> l >> b;
+    }
+    void calculate() {
+        cout << "Area: " << l * b;
+    }
+};
+int main() {
+    Area a;
+    a.input();
+    a.calculate();
+    return 0;
+}
