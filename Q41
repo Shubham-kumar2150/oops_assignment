@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+class Sample {
+public:
+    void show() {
+        cout << "Object created successfully";
+    }
+};
+int main() {
+    Sample s;
+    s.show();
+    return 0;
+}
