@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+class Compare {
+public:
+    int x;
+};
+int main() {
+    Compare a, b;
+    cin >> a.x >> b.x;
+    if(a.x == b.x)
+        cout << "Objects are equal";
+    else
+        cout << "Objects are not equal";
+
+    return 0;
+}
