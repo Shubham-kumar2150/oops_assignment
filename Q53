@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+class Demo {
+public:
+    Demo() {
+        cout << "Default constructor\n";
+    }
+    Demo(int x) {
+        cout << "Parameterized constructor: " << x;
+    }
+};
+int main() {
+    Demo d1;
+    Demo d2(5);
+    return 0;
+}
