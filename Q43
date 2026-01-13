@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+class Test {
+public:
+    void input() {
+        cout << "Member function called";
+    }
+};
+int main() {
+    Test t;
+    t.input();
+    return 0;
+}
