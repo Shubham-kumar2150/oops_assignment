@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+class Demo {
+private:
+    int a = 10;
+public:
+    void display() {
+        cout << "Private value: " << a;
+    }
+};
+int main() {
+    Demo d;
+    d.display();
+    return 0;
+}
