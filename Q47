@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+class Largest {
+public:
+    int a, b;
+    void input() {
+        cin >> a >> b;
+    }
+    void show() {
+        if(a > b)
+            cout << a << " is largest";
+        else
+            cout << b << " is largest";
+    }
+};
+int main() {
+    Largest l;
+    l.input();
+    l.show();
+    return 0;
+}
