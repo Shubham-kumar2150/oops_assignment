@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+class Sample {
+    int a;
+public:
+    void set(int a) {
+        this->a = a;
+    }
+    void display() {
+        cout << "Member variable a: " << a << endl;
+    }
+};
+int main() {
+    Sample s;
+    s.set(25);
+    s.display();
+    return 0;
+}
