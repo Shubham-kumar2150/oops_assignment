@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+class Test {
+private:
+    int x;
+public:
+    Test() {
+        x = 50;
+    }
+    friend void show(Test t);
+};
+void show(Test t) {
+    cout << "Private value x: " << t.x << endl;
+}
+int main() {
+    Test t;
+    show(t);
+    return 0;
+}
