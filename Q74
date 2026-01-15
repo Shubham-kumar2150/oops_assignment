@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+class Demo {
+    int x;
+public:
+    Demo(int a) {
+        x = a;
+    }
+    void display() const {
+        cout << "Value of x: " << x;
+    }
+};
+int main() {
+    Demo d(10);
+    d.display();
+    return 0;
+}
