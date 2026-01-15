@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+class Student {
+    int roll;
+public:
+    Student(int r) {
+        roll = r;
+        cout << "Object Created. Roll No: " << roll << endl;
+    }
+
+    void display() {
+        cout << "Roll No: " << roll << endl;
+    }
+
+    ~Student() {
+        cout << "Object Destroyed" << endl;
+    }
+};
+int main() {
+    Student *s;
+
+    // Dynamic object creation
+    s = new Student(101);
+
+    s->display()
+    delete s;
+
+    return 0;
+}
