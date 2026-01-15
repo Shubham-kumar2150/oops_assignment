@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+class Test {
+public:
+    void show() const {
+        cout << "Constant object calling constant function";
+    }
+};
+int main() {
+    const Test t;
+    t.show();
+    return 0;
+}
