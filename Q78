@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+class Polynomial {
+    int coeff, power;
+public:
+    void get() {
+        cout << "Enter coefficient and power: ";
+        cin >> coeff >> power;
+    }
+    void show() {
+        cout << coeff << "x^" << power;
+    }
+};
+int main() {
+    Polynomial p;
+    p.get();
+    p.show();
+    return 0;
+}
